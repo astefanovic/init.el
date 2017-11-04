@@ -38,7 +38,7 @@
 (setf (alist-get "\\.js\\'" auto-mode-alist) 'rjsx-mode)
 (load-theme 'zenburn t)
 (tool-bar-mode -1)
-(toggle-scroll-bar -1)
+(scroll-bar-mode -1)
 (desktop-save-mode 1)
 
 ;; Sets the shell to bash
